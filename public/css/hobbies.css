@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+}
+h2 {
+  text-align: center;
+}
+.header {
+  text-align: center;
+  background-color: #1b6b93;
+  color: white;
+}
+.nav {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navitem {
+  list-style: none;
+  background-color: #a2ff86;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.navitem a {
+  text-decoration: none;
+  color: #1b6b93;
+}
+.footer {
+  text-align: center;
+  color: #1b6b93;
+  background-color: #a2ff86;
+  font-size: 0.6em;
+  padding: 5px;
+}
+.interests {
+  display: flex;
+  flex-direction: column;
+}
+.interest {
+  margin-bottom: 20px;
+}
+
+.interest-img {
+  height: 150px;
+  float: left;
+  padding-right: 15px;
+}
+.interest-desc {
+  display: inline;
+  /* padding: 15px 15px; */
+  margin-left: 10px;
+}
+.interest-img-rt {
+  height: 150px;
+  float: right;
+  padding-left: 15px;
+}
+.interest-desc-rt {
+  display: inline;
+  /* padding: 15px 15px; */
+  margin-left: 10px;
+}
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
